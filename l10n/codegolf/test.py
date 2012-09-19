@@ -98,7 +98,7 @@ class Codegolf2_2PY3Test(BaseTest):
     pyversion="python3"
     lib="codegolf2_2"
 
-test_classes = (Codegolf2Test, Codegolf3Test, Codegolf2_2PY2Test, Codegolf2_2PY3Test)
+test_classes = (Codegolf2Test, Codegolf3Test,)# Codegolf2_2PY2Test, Codegolf2_2PY3Test)
 
 def load_tests():
     suite = unittest.TestSuite()
