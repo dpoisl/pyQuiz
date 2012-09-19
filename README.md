@@ -14,3 +14,9 @@ kalaha
 
 A half-done implementation of the board game Kalaha. The rules, 
 game logic and output is completed but that's it.
+
+l10n
+----
+
+Various implementations of number formatting.
+These should not be used in production code as they are quite special.
