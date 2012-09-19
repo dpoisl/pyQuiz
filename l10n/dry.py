@@ -24,4 +24,3 @@ if __name__ == "__main__":
         print(locale.format("%d", int(sys.argv[1]), grouping=True))
     except ValueError:
         print(locale.format("%f", float(sys.argv[1]), grouping=True))
-    

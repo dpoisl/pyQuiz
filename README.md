@@ -9,14 +9,14 @@ For a list of challenges issued see http://pyug.at/PythonQuiz/
 Content
 =======
 
-kalaha
-------
+kalaha - http://pyug.at/PythonQuiz/2012-05/
+-------------------------------------------
 
 A half-done implementation of the board game Kalaha. The rules, 
-game logic and output is completed but that's it.
+game logic and output is completed but the user interface is missing.
 
-l10n
-----
+l10n - http://pyug.at/PythonQuiz/2012-09
+----------------------------------------
 
 Various implementations of number formatting.
-These should not be used in production code as they are quite special.
+Includes my first attempts at code golfing and a web app
