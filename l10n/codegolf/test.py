@@ -84,21 +84,30 @@ class BaseTest(unittest.TestCase):
 
 class Codegolf3Test(BaseTest):
     pyversion="python3"
-    lib="codegolf3"
+    lib="codegolf_negative_py3"
 
 class Codegolf2Test(BaseTest):
     pyversion="python2"
-    lib="codegolf2"
+    lib="codegolf_negative_py2"
 
-class Codegolf2_2PY2Test(BaseTest):
-    pyversion="python2"
-    lib="codegolf2_2"
-
-class Codegolf2_2PY3Test(BaseTest):
+class Codegolf3numTest(BaseTest):
     pyversion="python3"
-    lib="codegolf2_2"
+    lib="codegolf_num_py3"
 
-test_classes = (Codegolf2Test, Codegolf3Test,)# Codegolf2_2PY2Test, Codegolf2_2PY3Test)
+class Codegolf2numTest(BaseTest):
+    pyversion="python2"
+    lib="codegolf_num_py2"
+
+class Codegolf3strTest(BaseTest):
+    pyversion="python3"
+    lib="codegolf_str_py3"
+
+class Codegolf2strTest(BaseTest):
+    pyversion="python2"
+    lib="codegolf_str_py2"
+
+test_classes = (Codegolf2numTest, Codegolf3numTest, Codegolf2strTest, Codegolf3strTest, 
+        Codegolf2Test, Codegolf3Test)
 
 def load_tests():
     suite = unittest.TestSuite()
