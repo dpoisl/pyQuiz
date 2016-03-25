@@ -20,3 +20,9 @@ l10n - http://pyug.at/PythonQuiz/2012-09
 
 Various implementations of number formatting.
 Includes my first attempts at code golfing and a web app
+
+mastermind_cheater - http://pyug.at/PythonQuiz/2016-03
+------------------------------------------------------
+
+A (cheating) solver for the cows&bulls game we programmed in our dojo.
+
